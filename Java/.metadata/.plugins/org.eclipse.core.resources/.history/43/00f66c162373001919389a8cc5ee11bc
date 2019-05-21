@@ -1,0 +1,19 @@
+package exercicios01;
+
+import java.util.Random;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		Random aleatorio = new Random();
+		
+		double n1 = aleatorio.nextDouble();
+		double n2 = aleatorio.nextDouble();
+		
+		System.out.println(n1);
+		System.out.println(n2);
+		System.out.println(n1+n2);
+	}
+
+}

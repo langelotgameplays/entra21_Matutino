@@ -1,0 +1,17 @@
+package exercicios01;
+
+import java.util.Random;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		Random aleatorio = new Random();
+		
+		int n1 = aleatorio.nextInt(100);
+		int n2 = aleatorio.nextInt(100);
+		
+		System.out.println(n1+n2);
+	}
+
+}

@@ -1,0 +1,21 @@
+package cargos;
+
+public class Cargo {
+	
+	//Atributos
+	protected String cargo;
+	protected double salario;
+	protected int nivel;
+	
+	//Vale Transporte
+	public void vt() {
+		
+		System.out.println("Desconto do vale transporte é "+salario*0.06);
+		
+	}
+
+	//Indentificação
+	public void indentificação() {
+		System.out.println("O cargo selecionado é "+cargo);
+	}
+}

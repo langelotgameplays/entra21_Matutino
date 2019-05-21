@@ -1,0 +1,16 @@
+package banco;
+
+public class Principal {
+
+	public static void main(String[] args) {
+
+		//Poli    -> Varios
+		//Morphus -> Formas
+		
+		ChequeEspecial obj = new ChequeEspecial();
+		obj.juros(1000);
+		Cheque obj2 = new Cheque();
+		obj2.juros(1000);
+	}
+
+}

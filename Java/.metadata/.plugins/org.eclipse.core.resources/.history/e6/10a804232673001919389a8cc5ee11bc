@@ -1,0 +1,25 @@
+package exercicios01;
+
+import java.util.Random;
+
+import javax.swing.JOptionPane;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		Random aleatorio = new Random();
+		Object[] cdg = { "n1+n2" , , , };
+		int n1 = aleatorio.nextInt(100);
+		int n2 = aleatorio.nextInt(100);
+		
+		JOptionPane.showOptionDialog(null,"Qual o resultado da operação "+n1+" + "+n2,"Prova",JOptionPane.YES_NO_CANCEL_OPTION,JOptionPane.PLAIN_MESSAGE,null, result,pdd[0]);
+		
+		JOptionPane.showInputDialog("Qual o resultado da operação "+n1+" + "+n2);
+		
+		System.out.println(n1);
+		System.out.println(n2);
+		System.out.println(n1+n2);
+	}
+
+}

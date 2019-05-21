@@ -1,0 +1,51 @@
+package acao;
+
+import javax.swing.table.DefaultTableModel;
+
+import beans.Beans;
+import dados.Dados;
+
+public class Acao {
+
+	// Validar Cadastro
+
+	// Cadastrar
+	public void cadastrar(Beans b) {
+		Dados.arrayDados.add(b);
+	}
+
+	// Selecionar
+	public DefaultTableModel selecionar() {
+
+		DefaultTableModel modelo = new DefaultTableModel();
+		modelo.addColumn("Nome");
+		modelo.addColumn("Idade");
+		modelo.addColumn("Altura");
+		modelo.addColumn("Peso");
+		modelo.addColumn("IMC");
+
+		for (int i = 0; i < Dados.arrayDados.size(); i++) {
+			modelo.addRow(new Object[] { 
+					Dados.arrayDados.get(i), 
+					Dados.arrayDados.get(i), 
+					Dados.arrayDados.get(i),
+					Dados.arrayDados.get(i), 
+					Dados.arrayDados.get(i),
+
+			});
+
+		}
+		return modelo;
+	}
+
+	// Alterar
+	public void alterar(int indice, Dados d) {
+		Dados.arrayDados.set(indice, d);
+	}
+
+	// Excluir
+	public void excluir(int indice) {
+		Dados.arrayDados.remove(indice);
+	}
+
+}

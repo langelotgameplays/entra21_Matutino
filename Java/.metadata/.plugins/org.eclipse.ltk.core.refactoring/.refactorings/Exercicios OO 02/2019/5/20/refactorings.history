@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;Acao&apos; to &apos;acao&apos;&#x0D;&#x0A;- Original project: &apos;Exercicios OO 02&apos;&#x0D;&#x0A;- Original element: &apos;Exercicios OO 02/src/Acao&apos;&#x0D;&#x0A;- Renamed element: &apos;Exercicios OO 02/src/acao&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;Acao&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;Acao" name="acao" qualified="false" references="true" stamp="1557746880551" textual="false" version="1.0"/>
+</session>
